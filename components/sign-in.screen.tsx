@@ -36,7 +36,7 @@ const SignInScreen: FC<SigninScreenProps> = ({ setIsAuthenticated }) => {
   };
 
   return (
-    <View style={styles.container}>
+    <View className={"!bg-red-600"} style={styles.container}>
       <Text>Sign In</Text>
       <TextInput
         style={styles.input}
