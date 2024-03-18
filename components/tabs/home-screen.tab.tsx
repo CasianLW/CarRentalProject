@@ -4,7 +4,7 @@ import { Auth } from "aws-amplify";
 import { useNavigation } from "@react-navigation/native";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { AuthStackParamList } from "@/app/_layout";
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "@/context/auth-context";
 
 type SignInNavigationProp = StackNavigationProp<AuthStackParamList, "SignIn">;
 type HomeScreenProps = {

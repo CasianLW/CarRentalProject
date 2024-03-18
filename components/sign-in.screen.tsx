@@ -1,7 +1,7 @@
 import React, { FC, useState } from "react";
 import { View, Text, TextInput, Button, StyleSheet } from "react-native";
 import { Amplify, Auth } from "aws-amplify";
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "@/context/auth-context";
 import { useNavigation } from "@react-navigation/native";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { AuthStackParamList } from "@/app/_layout";

@@ -13,13 +13,13 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import * as SplashScreen from "expo-splash-screen";
 import { FC, useEffect, useState } from "react";
 
-import { useColorScheme } from "@/components/useColorScheme";
-import SignInScreen from "@/components/SignInScreen";
-import SignUpScreen from "@/components/SignUpScreen";
-import ForgotPasswordScreen from "@/components/ForgotPasswordScreen";
-import HomeScreen from "@/components/tabs/HomeScreen";
-import ProfileScreen from "@/components/tabs/ProfileScreen";
-import { AuthProvider } from "@/context/AuthContext";
+import { useColorScheme } from "@/components/use-color-scheme";
+import SignInScreen from "@/components/sign-in.screen";
+import SignUpScreen from "@/components/sign-up.screen";
+import ForgotPasswordScreen from "@/components/forgot-password.screen";
+import HomeScreen from "@/components/tabs/home-screen.tab";
+import ProfileScreen from "@/components/tabs/profile-screen.tab";
+import { AuthProvider } from "@/context/auth-context";
 
 // import Amplify from 'aws-amplify';
 import config from "../amplifyconfiguration"; // Adjust the path to where your amplifyconfiguration.js is located
